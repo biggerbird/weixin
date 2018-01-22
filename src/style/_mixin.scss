@@ -1,0 +1,38 @@
+@mixin flex{
+    /**定义一个容器**/
+        display:-webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    /**row水平排放 wrap 自动换行**/
+        -webkit-flex-flow:row wrap;
+        -webkit-box-orient:horizontal;
+        -webkit-box-lines:multiple;
+    　　-moz-flex-flow:row wrap;
+        box-orient:horizontal;
+        box-lines:multiple;
+        flex-flow:row wrap;
+    /**space-between 两端保留子元素与子元素之间间距大小的一半**/
+        -webkit-justify-content:space-between;
+        justify-content:space-between;
+        -moz-box-pack:space-between;
+        -webkit--moz-box-pack:space-between;
+        box-pack:space-between;
+}
+@mixin flexs{
+     /**定义一个容器**/
+        display:-webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    /**row水平排放 wrap 自动换行**/
+        -webkit-flex-flow:row wrap;
+        -webkit-box-orient:horizontal;
+        -webkit-box-lines:multiple;
+    　　-moz-flex-flow:row wrap;
+        box-orient:horizontal;
+        box-lines:multiple;
+        flex-flow:row wrap;
+}

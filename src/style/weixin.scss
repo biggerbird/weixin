@@ -1,0 +1,334 @@
+@import "variables","mixin";
+
+ .weixin .weixin-time div,
+ .weixin .BidRecord div,
+ .weixin .LeavingMessage-ping,
+ .weixin .HotConsultation .HotConsultation-box ul,
+ .introduce-name-title,
+ .weixin>h3{
+     @include flex();
+ }
+.weixin .weixin-time ul,
+.weixin .BidRecord div ul,
+.weixin .AdvisoryMessage .LeavingMessage ul,
+.weixin .HotConsultation .HotConsultation-box,
+.weixin .HotConsultation .HotConsultation-box ul li ul,
+.weixin .introduce .introduce-box,
+.weixin .introduce .introduce-box .introduce-name,
+.weixin .introduce .introduce-box .introduce-name .introduce-name-title-box ul{
+     @include flexs();
+ }
+.weixin .introduce,
+.weixin .weixin-time div,
+.weixin .ConsultingInstructions,
+.weixin .PlatformSupport,
+.weixin .BidRecord,
+.weixin .AdvisoryMessage,
+.weixin .HotConsultation{
+    background-color: $color-white;
+    padding: 0.5rem 0.5rem 1rem;
+    font-size: 0.85rem
+}
+.weixin .introduce .introduce-box .introduce-name .introduce-name-title-box>ul>li{
+    margin-right: 0.5rem
+}
+.weixin>h3{
+    margin-top: 0.5rem;
+    background: $color-white;
+    padding:1rem 1rem 0.5rem;
+    border-bottom: 1px solid $color-border;
+    font-size: 0.95rem;
+}
+.weixin>h3 span{
+    color: $color-blue;
+    font-size: 0.75rem
+}
+.weixin>h3 b{
+    display: inline-block;
+    color: $color-blue
+}
+.weixin .introduce .introduce-box .introduce-img{
+    width: 30%;
+    text-align: center;
+}
+.weixin .introduce .introduce-box .introduce-img img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2px;
+}
+.weixin .introduce .introduce-box .introduce-name{
+    width: 70%;
+}
+.weixin .introduce .introduce-box .introduce-name .introduce-name-title-box{
+    width: 80%
+}
+.weixin .introduce .introduce-box .introduce-name .introduce-name-title-box p{
+     border: 1px solid $coloor-Pale-pale-grey;
+     padding: 0 0.4rem;
+     border-radius: 5px;
+     margin-top: 0.5rem;
+     color: $color-Light-grey
+}
+.weixin .introduce .introduce-box .introduce-name  .introduction p{
+    height: 2.1rem;
+    color: $color-Light-grey;
+    overflow: hidden;
+}
+.weixin .introduce .introduce-box .introduce-name .introduce-name-title-box .score{
+    background: $color-yellow;
+    color: $color-white;
+    padding: 0 0.4rem;
+    border-radius: 2px;
+}
+.weixin .introduce .introduce-box .introduce-name .introduce-name-title-box .score img{
+    margin-right: 3px;
+}
+.introduce-name-title{
+    width: 100%;
+}
+.weixin .introduce .introduce-box .introduce-name .Authentication{
+    width:20%;
+    text-align: center
+}
+.weixin .introduce .introduce-box .introduce-name .Authentication img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-top: 0.5rem
+}
+.weixin .title-content p{
+    color: $color-Light-grey;
+    font-size: 0.85rem
+}
+.weixin .title-content{
+      margin-top: 0.2rem;
+      background: $color-white;
+      padding: 1rem 0.5rem;
+      font-size: 0.75rem;
+      border-bottom: 1px solid $color-border
+  }
+  .weixin .title-content h4{
+      font-size: 0.9rem;
+  }
+  .weixin .title-content p{
+      margin-top: 0.3rem
+  }
+  .weixin-time .weixin-time-time li:nth-child(2){
+      margin-left: 0.5rem
+  }
+  .weixin-time .weixin-time-browse{
+      color: $color-blue
+  }
+  .weixin-time .weixin-time-browse span{
+     display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(https://static-test-old.shikee.tv/m/dist/bananImages.png) no-repeat -80px -79px;
+  }
+  .weixin .ConsultingInstructions div{
+      margin-top:0.5rem;
+  }
+  .weixin .ConsultingInstructions div p{
+      margin-top: 0.5rem
+  }
+  .weixin .ConsultingInstructions div h3{
+      font-size: 0.75rem      
+}
+.weixin .ConsultingInstructions p,
+.weixin .PlatformSupport p{
+    color: $color-Light-grey;
+    padding: 0 0.5rem;
+    font-size: 0.85rem
+}
+.weixin .ConsultingInstructions div h3 span{
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: $color-blue;
+        margin: 0.1rem 0.5rem 
+}
+.weixin .PlatformSupport ul,.weixin .PlatformSupport ul li{
+    margin-top: 0.5rem
+}
+.weixin .PlatformSupport ul li span img{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 0.2rem
+}
+.weixin .BidRecord .BidRecord-newOffer-title li span img{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+}
+.weixin .BidRecord .BidRecord-newOffer-title li{
+    position: relative;
+}
+.weixin .BidRecord .BidRecord-newOffer-title li:nth-child(2){
+    margin-top: 0.5rem
+}
+.weixin .BidRecord .BidRecord-newOffer-title li:nth-child(1) p{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.75);
+    position: absolute;
+    top:0;
+}
+ .weixin .BidRecord div ul{
+     margin-top: 0.2rem
+ }
+  .weixin .BidRecord div ul li{
+      margin-left: 1rem
+  }
+ .weixin .BidRecord div .BidRecord-newOffer-title li:nth-child(3) p{
+     border: 1px solid $color-Light-grey;
+     border-radius: 5px;
+     padding: 0 0.5rem;
+     margin-top: 0.5rem
+ }
+ .weixin .BidRecord div .BidRecord-newOffer-title li:nth-child(3) p.Lead{
+      border: 1px solid $color-blue;
+      color: $color-blue;
+      margin-top: 0.5rem
+ }
+ .weixin .BidRecord div .BidRecord-newOffer-time li p.Lead{
+     color: $color-blue;
+     margin-top: 0.5rem
+ }
+.weixin .BidRecord div .BidRecord-newOffer-time li p span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(https://static-test-old.shikee.tv/m/dist/bananImages.png) no-repeat -80px -79px;
+  }
+    .weixin .AdvisoryMessage .LeavingMessage{
+        border-bottom: 1px solid $color-border;
+        padding:  0.5rem 0
+    }
+    .weixin .AdvisoryMessage .LeavingMessage ul li:nth-child(1) img{
+          border-radius: 50%;
+          margin-top: 0.5rem
+    }
+  .weixin .AdvisoryMessage .LeavingMessage ul li:nth-child(2){
+      margin-left: 0.5rem;
+       width: 50%
+  }
+  .weixin .AdvisoryMessage .LeavingMessage ul li:nth-child(2) p{
+      color: #ccc;
+      margin-top: 0.2rem
+  }
+  .weixin .AdvisoryMessage .LeavingMessage ul li:nth-child(3){
+       width: 39%;
+      text-align: right;
+  }
+  .weixin .AdvisoryMessage .LeavingMessage ul li:nth-child(3) b{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("https://static-test-old.shikee.tv/m/dist/bananImages.png") no-repeat -45px -80px;
+    margin-right: 0.1rem
+  }
+  .weixin .AdvisoryMessage .LeavingMessage ul li:nth-child(3) b.shou{
+      background: url("https://static-test-old.shikee.tv/m/dist/bananImages.png") no-repeat -10px -80px;
+  }
+  .weixin .AdvisoryMessage .LeavingMessage ul li:nth-child(3) span{
+      margin-right: 1rem;
+      color: $color-Light-grey
+  }
+  .weixin .AdvisoryMessage .LeavingMessage-p{
+    margin: 0.2rem 0 0 2rem;
+    color: $color-Dark-grey;
+    font-size: 11px;
+  }
+.weixin .AdvisoryMessage .LeavingMessage-ping{
+        margin-top: 0.5rem
+    }
+.weixin .AdvisoryMessage .LeavingMessage-ping div a{
+    color: $color-blue
+}
+.weixin .AdvisoryMessage .LeavingMessage-ping div a span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("https://static-test-old.shikee.tv/m/dist/bananImages.png") no-repeat -80px -9px;
+}
+.weixin .AdvisoryMessage .LeavingMessage-ping p{
+    margin-left: 5rem
+}
+.weixin .HotConsultation{
+    padding-bottom: 3rem;
+}
+.weixin .HotConsultation .HotConsultation-box{
+    margin-top: 0.5rem
+}
+.weixin .HotConsultation .HotConsultation-box img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.weixin .HotConsultation .HotConsultation-box div:nth-child(1){
+    width: 15%;
+    text-align: center;
+}
+.weixin .HotConsultation .HotConsultation-box div:nth-child(2){
+    width: 85%
+}
+.weixin .HotConsultation .HotConsultation-box div:nth-child(2) ul li p.payment{
+    color: $color-blue;  
+}
+.weixin .HotConsultation .HotConsultation-box div:nth-child(2) ul li p.times{
+    color: $color-Light-grey
+}
+.weixin .HotConsultation .HotConsultation-box div:nth-child(2) ul li p.comment{
+    color: $color-Light-grey;
+    margin-top: 0.3rem
+}
+.weixin .HotConsultation .HotConsultation-box div:nth-child(2) ul li ul li p{
+    font-size: 0.6rem;    
+    border: 1px solid $color-blue;
+    color: $color-blue;
+    padding: 0 0.5rem;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    
+}
+.weixin .HotConsultation .HotConsultation-box div:nth-child(2) ul li ul li span{
+    font-size: 0.6rem;
+    color: $color-Light-grey;
+    margin-left: 0.2rem
+}
+.weixin .HotConsultation .HotConsultation-box div:nth-child(2) ul li p span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("https://static-test-old.shikee.tv/m/dist/bananImages.png") no-repeat -80px -79px;
+}
+.footer{
+     position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #000;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      text-align: center;
+}
+.mask{
+     position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      background: rgba(0,0,0,0.5);
+      padding: 0.5rem 1rem;
+}
+.mask textarea{
+    display: block;
+    width: 80%;
+    border-radius: 5px;
+    margin:0 auto;
+    margin-top: 2rem;
+    outline:none;
+}

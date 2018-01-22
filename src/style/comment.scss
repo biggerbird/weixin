@@ -1,0 +1,47 @@
+@import "variables","mixin";
+
+body{
+    margin: 0;
+    padding: 0;
+    background: $color-border
+}
+#app {
+  font-family: '微软雅黑','宋体','Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color-Dark-grey;
+}
+p,div,ul,li,h1,h2,h3,h4,h5,h6,dd,dt,dl{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page-swipe{
+      position: relative;
+}
+.page-swipe .mint-swipe {
+    height: 180px;
+    color: $color-white;
+    font-size: 30px;
+    text-align: center;
+}
+.page-swipe .mint-swipe img{
+    width: 100%;
+    height: 100%;
+}
+.page-swipe-Advertisement{
+    @include flex();
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    color: $color-white;
+    text-align: center;
+    padding: 0.3rem 1rem;
+}
+.page-swipe .page-swipe-Advertisement div span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
